@@ -1,0 +1,16 @@
+language: node_js
+node_js:
+  - "node"
+
+cache: yarn
+
+before_install:
+  - npm install -g npx@latest
+  - npm --version
+  - yarn --version
+  - npx --version
+
+script:
+  - 'if [ "$TRAVIS_PULL_REQUEST" != "false" ]; then npx yarn run check:commit; fi'
+  - npx yarn run check:lint
+  - npx yarn run test:coverage
