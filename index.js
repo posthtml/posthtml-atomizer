@@ -1,3 +1,3 @@
-module.exports = () => {
-	return tree => tree;
-};
+const Plugin = require('./plugin');
+
+module.exports = Plugin.instance;

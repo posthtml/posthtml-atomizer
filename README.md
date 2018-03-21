@@ -93,7 +93,7 @@ This option is used for configuring options such as `rtl`, `namespace`, `ie`, et
 
 ### `path`
 
-- Default: `'atomic.css'`
+- Default: `'./atomic.css'`
 
 This option is used to configure where the plugin will write the CSS Atomizer generates.
 
