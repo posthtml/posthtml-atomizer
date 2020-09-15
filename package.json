@@ -4,7 +4,7 @@
   "license": "MIT",
   "author": "Charles B Johnson <mail@cbjohnson.info> (cbjohnson.info)",
   "repository": "charlesbjohnson/posthtml-atomizer",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "main": "index.js",
   "scripts": {
     "check": "run-p check:*",
