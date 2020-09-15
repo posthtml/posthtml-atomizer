@@ -62,7 +62,7 @@
     "posthtmlplugin"
   ],
   "engines": {
-    "node": ">=6"
+    "node": ">=10"
   },
   "commitlint": {
     "extends": [
